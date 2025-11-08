@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | JB Sales</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    .feedback-section {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .feedback-section h2 {
+      color: #1e33e1;
+      margin-bottom: 30px;
+    }
+
+    .feedback-card {
+      background: white;
+      color: black;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px auto;
+      max-width: 700px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .feedback-card img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .feedback-text {
+      text-align: left;
+    }
+
+    .feedback-text p {
+      margin-bottom: 5px;
+      font-style: italic;
+    }
+
+    .add-feedback {
+      margin-top: 40px;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    .add-feedback input,
+    .add-feedback textarea {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .add-feedback button {
+      background-color: #1e33e1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .add-feedback button:hover {
+      background-color: #1527a1;
+    }
+  </style>
+</head>
+<body class="contacts">
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo">John Sales</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section class="contact-section fade-in">
+
+  <div class="contact-container">
+
+    <div class="contact-info fade-in delay-1">
+      <h2>Contact Me</h2>
+      <p><strong>Email:</strong> sales.john_benedict@hnu.edu.ph</p>
+      <p><strong>Phone:</strong> 0912 345 6789</p>
+      <p><strong>Address:</strong> Bool, Tagbilaran City, Bohol</p>
+      <p>Feel free to reach out anytime for school projects or collaborations!</p>
+    </div>
+
+    <div class="contact-form fade-in delay-2">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+        <button type="submit" class="fade-in delay-3">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
